@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lacquer&display=swap');
+
+*{
+    font-family: "IBM Plex Mono";
+}
+html{
+    background-color: black;
+}
+body{
+    margin: 30px 30px 30px 30px;
+    background-color: #D9D9D9;
+    height: 60%;
+    border-radius: 35px;
+}
+img{
+    width: 650px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding: 40px 0 40px 0;
+}
+.ap p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.ap{
+    background-color: #ffffff;
+    border-radius: 35px;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    width: 650px;
+    vertical-align: top;
+    margin-left: 140px;
+    margin-bottom: 70px;
+}
+.date{
+    float: right;
+}
+.name{
+    text-align: center;
+    font-weight: 500;
+}
+.cat{
+    width: 450px;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+.back{
+    border-style: none;
+    background-color: #C88B8B;
+    height: 70px;
+    border-radius: 35px;
+    box-shadow: 6px 8px 0px 4px #AF5C5C;
+    color: #F0E9E9;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 20%;
+    margin-left: 1400px;
+    margin-bottom: 50px;
+}
+@media (max-width: 1440px){
+    h1{
+        font-size: 42px;
+    }
+    img{
+        width: 500px;
+    }
+    .ap{
+        padding: 20px 20px 20px 20px;
+        width: 500px;
+        margin-left: 95px;
+        margin-bottom: 70px;
+    }
+    .ap p{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .cat{
+        width: 350px;
+        margin-top: -170px;
+    }
+    .back{
+        height: 78px;
+        box-shadow: 5px 7px 0px 3px #AF5C5C;
+        font-size: 18px;
+        margin-left: 1000px;
+    }
+}
+@media (max-width: 1024px){
+    h1{
+        padding-top: 40px;
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+    img{
+        width: 350px;
+    }
+    .ap{
+        padding: 20px 20px 20px 20px;
+        width: 350px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    .ap p{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .cat{
+        width: 300px;
+        margin-top: -170px;
+        margin-left: 50px;
+    }
+    .back{
+        height: 72px;
+        font-size: 16px;
+        margin-left: 700px;
+    }
+}
+@media (max-width: 768px){
+    h1{
+        padding-top: 40px;
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+    img{
+        width: 500px;
+    }
+    .ap{
+        padding: 20px 20px 20px 20px;
+        width: 500px;
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
+    .ap p{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .cat{
+        width: 300px;
+        margin-top: -170px;
+        margin-left: 50px;
+    }
+    .back{
+        width: 30%;
+        height: 72px;
+        font-size: 16px;
+        margin-left: 420px;
+    }
+}
+@media (max-width: 576px){
+    h1{
+        padding-top: 40px;
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    img{
+        width: 380px;
+    }
+    .ap{
+        padding: 20px 20px 20px 20px;
+        width: 380px;
+        margin-left: 45px;
+        margin-bottom: 50px;
+    }
+    .cat{
+        width: 250px;
+        margin-top: -170px;
+        margin-left: 10px;
+    }
+    .back{
+        margin-left: 300px;
+    }
+}
